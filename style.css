@@ -1,0 +1,136 @@
+main{
+  padding: 8px;
+}
+.inputSearch{
+    width: 70%;
+    border: none;
+    font-size: 4vW;
+    padding: 0VW 2vw;
+    border-bottom: 2px solid mediumslateblue;
+    outline:none;
+    background-color:  rgba(205, 201, 228, 0);
+}
+.buttonSearch{
+    width: 20%;
+    height: 10vW;
+    background-color: mediumslateblue;
+    text-align: center;
+    font-size: 4vW;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    outline:none;
+
+}
+
+
+header {
+    color: rgb(100, 100, 100);
+    text-align: center;
+    font-size: 5vW;
+}
+
+.divli{
+    border-bottom: 1px solid rgb(160, 147, 235);
+    width: 98%;
+    transition: width 0.5s;
+    float: left;
+}
+
+.divliDel{
+    background-color: red;
+    color: white;
+    width: 0%;
+    transition: width 0.5s;
+    text-align: center;
+    vertical-align: middle;
+    float: right;
+}
+.divliDelh3{
+    margin-top: 40%;
+}
+
+.divli.swipe{
+    width: 78%;
+    float: left;
+}
+
+.divliDel.swipe{
+    width: 20%;
+    float: right;
+}
+.parentDiv{
+    clear: both;
+    width: 93%;
+}
+
+.liClass {
+    background-color: white;
+    list-style: none;
+    border-radius: 8px;
+    padding: 1vw;
+    margin-block-start: 2vW;
+}
+
+.liSelected{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(160, 147, 235,0.5));
+    list-style: none;
+    border-radius: 8px;
+    padding: 4vw;
+}
+.searchdiv{
+    margin-bottom: 2vw;
+}
+
+
+h3{
+    margin-block-start: 4px;
+    margin-block-end: 2px;
+    font-size: 4vW;
+    font-weight: bold;
+}
+p{
+    margin-block-start: 2px;
+    margin-block-end: 4px;
+    font-size: 4vW;
+    margin-left:18px;
+}
+
+.listClass{
+    margin-block-start: 2vW;
+    padding-inline-start: 0px;
+    padding: 3vw;
+}
+audio{
+    margin-block-start: 3vW;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+}
+.artwork{
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 2vw;
+}
+.data{
+    padding: 2vw;
+    float: none;
+    font-weight: bold;
+}
+
+svg{
+    float: left;
+}  
+.previewDiv{
+   background-color: rgba(236, 236, 236, 0.685);
+    border-radius: 8px;
+    padding-top: 3vw;
+}
+
+#Autoplay{
+    padding-bottom: 3vw;
+}
+
